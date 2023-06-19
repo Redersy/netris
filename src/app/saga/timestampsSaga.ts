@@ -1,7 +1,7 @@
 import { AxiosError, AxiosResponse } from "axios";
 import { put, takeEvery, call } from "redux-saga/effects";
-import { apiGetTimestamps, TimestampResponseType } from "../../shared/api";
-import { TimestampsActionTypes, setTimestamps, setTimestampsError } from "../store/reducers";
+import { apiGetTimestamps, TimestampResponseType } from "shared/api";
+import { TimestampsActionTypes, setTimestamps, setTimestampsError } from "app/store";
 
 function* fetchTimestampsGenerator() {
   try {

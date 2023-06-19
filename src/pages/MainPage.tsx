@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { fetchTimestamps, useSelector, useDispatch } from "../app/store";
-import { VideoPlayer } from "../shared/ui";
+import { fetchTimestamps, useSelector, useDispatch } from "app/store";
+import { VideoPlayer } from "shared/ui";
 
 export const MainPage = () => {
   const dispatch = useDispatch();
