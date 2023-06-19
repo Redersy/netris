@@ -1,0 +1,36 @@
+.video-player {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-player__wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+
+.timestamps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.timestamps__item {
+    cursor: pointer;
+    background-color: #d7d7d7;
+    color: blue;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.square {
+    position: absolute;
+    background-color: green;
+}

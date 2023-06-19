@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timestamps Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="timestamps"
+  >
+    <div
+      class="timestamps__item"
+      data-testid="timestamp-1"
+    >
+      00:00:001
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Squares Snapshot list 1`] = `
+<DocumentFragment>
+  <div
+    class="square"
+    data-testid="square-1"
+    style="width: 10px; height: 10px; left: 0px; top: 0px;"
+  />
+</DocumentFragment>
+`;

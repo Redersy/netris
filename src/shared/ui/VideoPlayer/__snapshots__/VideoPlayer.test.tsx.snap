@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Video player Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="video-player"
+  >
+    <div
+      class="video-player__wrapper"
+    >
+      <video
+        data-testid="video"
+        src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      />
+    </div>
+    <div
+      class="timestamps"
+    />
+  </div>
+</DocumentFragment>
+`;
